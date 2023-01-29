@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="logo">
+        <i class="fa-solid fa-clipboard-list"></i>
+        <h6>To Do List</h6>
+    </div>
+    <div class="responsive">
+    <div class="input">
+        <input type="text" class=" move" placeholder="Type Here..." id="input">
+        
+    </div>
+    <div class="input date ">
+        <input type="date" class=" move" id="date">
+    </div>
+    <div class="input date">
+        <input type="time" id="time">
+        <button id="add" onclick="insert()">+</button>
+    </div>
+</div>
+    <div class="list">
+        <ul id="list1">
+            
+        </ul>
+    
+  </div>
+
+  <script src="my.js"></script>
+
+</body>
+</html>
